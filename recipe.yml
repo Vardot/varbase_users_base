@@ -1,0 +1,6 @@
+name: 'Varbase Users Base'
+type: 'User roles'
+description: 'Manages default Varbase user roles and user management configurations, including role definitions, account settings, and the modules needed to support user management on the site.'
+config:
+  # If the roles already exist, we don't really care what they look like.
+  strict: false
