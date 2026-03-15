@@ -6,7 +6,7 @@ dependencies:
     - node
     - block
 id: content_editor
-label: 'Editor'
+label: 'Content editor'
 weight: 2
 is_admin: false
 permissions:
