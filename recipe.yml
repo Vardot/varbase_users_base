@@ -1,6 +1,9 @@
 name: 'Varbase Users Base'
 type: 'User roles'
 description: 'A recipe to manage default Varbase user roles and user management configurations, including role definitions, account settings, and the modules needed to support user management on the site.'
+install:
+  - node
+  - block
 config:
   # If the roles already exist, we don't really care what they look like.
   strict: false
