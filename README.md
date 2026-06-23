@@ -1,6 +1,9 @@
 [![Varbase](https://raw.githubusercontent.com/Vardot/varbase/11.0.x/images/varbase-logo.png)](https://www.drupal.org/project/varbase)
 
 # Varbase Users Base
+[![pipeline status](https://git.drupalcode.org/project/varbase_users_base/badges/1.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_users_base/-/pipelines)
+[![Varbase Users Base](https://img.shields.io/badge/Varbase%20Users%20Base-1.0.0--alpha2-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_users_base/-/pipelines?ref=1.0.0-alpha2)
+[![Automated Functional Testing](https://git.drupalcode.org/project/varbase_project/badges/11.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_project/-/pipelines)
 
 A recipe to manage default Varbase user roles and user management configurations, including role definitions, account settings, and the modules needed to support user management on the site.
 
