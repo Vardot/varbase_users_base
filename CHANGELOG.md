@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.1] - 2026-10-11
 ### Added
 - Show users their own account details on their profile page: username, email,
   time zone, account status, account created and last login, with Edit profile,
@@ -13,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   adds a "Profile details" field to the user display and renders the active
   theme's `user-profile-details` component, for the account owner only
   ([#3630123](https://www.drupal.org/i/3630123)).
+- Require `drupal/eca` `~3` and `drupal/modeler_api` `~1`, and install the eca, eca_base,
+  eca_render, eca_user and modeler_api modules.
+### Changed
+- Update the version badge to `1.0.1` in `README.md`.
 
 ## [1.0.0] - 2026-09-06
 ### Changed
@@ -38,7 +44,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Users Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_users_base/-/compare/1.0.0...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_users_base/-/compare/1.0.1...1.0.x
+[1.0.1]: https://git.drupalcode.org/project/varbase_users_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_users_base/-/compare/1.0.0-rc1...1.0.0
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_users_base/-/compare/1.0.0-beta1...1.0.0-rc1
 [1.0.0-beta1]: https://git.drupalcode.org/project/varbase_users_base/-/compare/1.0.0-alpha2...1.0.0-beta1
