@@ -22,5 +22,5 @@
     "drupal/eca": "~3",
     "drupal/modeler_api": "~1"
   },
-  "version": "1.0.1"
+  "version": "1.0.x-dev"
 }
