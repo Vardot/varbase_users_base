@@ -5,6 +5,11 @@ install:
   - node
   - block
   - persistent_login
+  - eca
+  - eca_base
+  - eca_render
+  - eca_user
+  - modeler_api
 config:
   # If the roles already exist, we don't really care what they look like.
   strict: false

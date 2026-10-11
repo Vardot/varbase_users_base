@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Show users their own account details on their profile page: username, email,
+  time zone, account status, account created and last login, with Edit profile,
+  Change password and Log out buttons. A `varbase_user_profile_details` ECA model
+  adds a "Profile details" field to the user display and renders the active
+  theme's `user-profile-details` component, for the account owner only
+  ([#3630123](https://www.drupal.org/i/3630123)).
 
 ## [1.0.0] - 2026-09-06
 ### Changed
